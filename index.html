@@ -14,118 +14,26 @@
 </head>
 
 <body>
-    <div class="m-5">
-        <select class="form-select" id="cmbUbicacion" aria-label="Example select with button addon">
-            <option>Mostrar Todos</option>
-            <option value="201">Guastatoya</option>
-            <option value="202">Morazan</option>
-            <option value="203">San Agustin Acasaguastlan</option>
-            <option value="204">San Cristobal Acasaguastlan</option>
-            <option value="205">El Jicaro</option>
-            <option value="206">Sansare</option>
-            <option value="207">Sanarate</option>
-            <option value="208">San Antonio</option>
-        </select>
-        <button class="btn btn-secondary" type="button" onclick="GetDatos();">Buscar</button>
-
-        <div class="row">
-            <div id="principal" class="col-md-6 mb-5">
-
-            </div>
-            <div class="col-md-6 mb-5">
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th scope="col">#</th>
-                            <th scope="col">First</th>
-                            <th scope="col">Last</th>
-                            <th scope="col">Handle</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row" id="">1</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">2</th>
-                            <td>Jacob</td>
-                            <td>Thornton</td>
-                            <td>@fat</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">3</th>
-                            <td colspan="2">Larry the Bird</td>
-                            <td>@twitter</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <div class="col-md-6 mb-5">
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th scope="col">#</th>
-                            <th scope="col">First</th>
-                            <th scope="col">Last</th>
-                            <th scope="col">Handle</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row" id="">1</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">2</th>
-                            <td>Jacob</td>
-                            <td>Thornton</td>
-                            <td>@fat</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">3</th>
-                            <td colspan="2">Larry the Bird</td>
-                            <td>@twitter</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <div class="col-md-6 mb-5">
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th scope="col">#</th>
-                            <th scope="col">First</th>
-                            <th scope="col">Last</th>
-                            <th scope="col">Handle</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row" id="">1</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">2</th>
-                            <td>Jacob</td>
-                            <td>Thornton</td>
-                            <td>@fat</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">3</th>
-                            <td colspan="2">Larry the Bird</td>
-                            <td>@twitter</td>
-                        </tr>
-                    </tbody>
-                </table>
+    <div class="row m-5">
+        <div class="col-sm-12 col-md-12">
+            <div class="input-group">
+                <select id="cmbUbicacion" class="form-select" aria-label="Example select with button addon">
+                    <option value="999">Mostrar Todos</option>
+                    <option value="201">Guastatoya</option>
+                    <option value="202">Morazan</option>
+                    <option value="203">San Agustin Acasaguastlan</option>
+                    <option value="204">San Cristobal Acasaguastlan</option>
+                    <option value="205">El Jicaro</option>
+                    <option value="206">Sansare</option>
+                    <option value="207">Sanarate</option>
+                    <option value="208">San Antonio</option>
+                </select>
+                <button class="btn btn-secondary" type="button" onclick="GetDatos();">Buscar</button>
             </div>
         </div>
-</body>
+    </div>
+    <div id="divCenso" class="m-5">
 
+    </div>
+</body>
 </html>
